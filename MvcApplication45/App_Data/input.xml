@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user>
+    <name>Akshay Rakheja</name>
+    <email>arakheja@purdue.edu</email>
+    <username>arakheja</username>
+    <password></password>
+    <pin>540531</pin>
+    <groups>
+      <group>
+        <id>1</id>
+        <name>ECE270</name>
+        <termid>201510</termid>
+        <tasks>
+          <task>
+            <id>1</id>
+            <course>ECE270 - Priority 2</course>
+            <notifyonly>True</notifyonly>
+            <priority>10</priority>
+            <interval>89000</interval>
+            <add>
+              <crn>17718</crn>
+              <crn>35660</crn>
+            </add>
+            <delete>
+              <crn>17725</crn>
+              <crn>35660</crn>
+            </delete>
+          </task>
+        </tasks>
+      </group>
+    </groups>
+  </user>
+  <user>
+    <name>Akanksha Sharma</name>
+    <email>sharma95@purdue.edu</email>
+    <username>sharma95</username>
+    <password></password>
+    <pin>133732</pin>
+    <groups>
+      <group>
+        <id>2</id>
+        <name>ECON 251</name>
+        <termid>201510</termid>
+        <tasks>
+          <task>
+            <id>2</id>
+            <course>ECON 251</course>
+            <notifyonly>True</notifyonly>
+            <priority>5</priority>
+            <interval>61000</interval>
+            <add>
+              <crn>53782</crn>
+            </add>
+            <delete>
+              <crn>18189</crn>
+            </delete>
+          </task>
+        </tasks>
+      </group>
+    </groups>
+  </user>
+  <user>
+    <name>Sidharth Mudgal</name>
+    <email>sidharthmsk@gmail.com</email>
+    <username>smudgals</username>
+    <password></password>
+    <pin>539632</pin>
+    <groups>
+      <group>
+        <id>3</id>
+        <name>ECON 300 level</name>
+        <termid>201510</termid>
+        <tasks>
+          <task>
+            <id>3</id>
+            <course>ECON 451 - Game Theory</course>
+            <note>This task will no longer be updated</note>
+            <status>Complete</status>
+            <statusdetails />
+            <notifyonly>True</notifyonly>
+            <priority>5</priority>
+            <interval>59000</interval>
+            <add>
+              <crn>17770</crn>
+              <crn>17782</crn>
+              <crn>17783</crn>
+              <crn>64739</crn>
+            </add>
+            <delete>
+              <crn>17782</crn>
+              <crn>17785</crn>
+            </delete>
+          </task>
+        </tasks>
+      </group>
+    </groups>
+  </user>
+</users>

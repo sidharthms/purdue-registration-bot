@@ -1,0 +1,20 @@
+﻿@using MvcApplication45.Common;
+@{
+    ViewBag.Title = "RegisterBot";
+}
+
+<div class="jumbotron">
+    <h1>RegisterBot</h1>
+</div>
+
+<h2>Currently Running Tasks</h2>
+<ul>
+    @foreach (var crn in QueueUtility.MonitoringTasks.Keys) {
+        <li>
+            @crn
+
+        </li>
+    }
+</ul>
+<p>Thread Manager State: @(QueueUtility.QueueingThread == null ? "Null" : 
+    QueueUtility.QueueingThread.ThreadState.ToString())</p>
